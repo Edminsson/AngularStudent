@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>A tree view</h2>
+
+<div class="container" ng-app="treeApp">
+    <div class="row">
+        <div class="col-md-3">
+            <p>place for a tree</p>
+            <div id="tree"></div>
+        </div>
+        <div class="col-md-3" ng-controller="studentCtrl">
+            <div ng-view ></div>
+        </div>
+    </div>
+</div>
+
